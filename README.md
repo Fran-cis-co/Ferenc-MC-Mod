@@ -8,3 +8,6 @@ This project will be titled "Ferenc's MC Mod".
 NOTE:
 This modding project couldn't have been down without the help of Youtuber [Kaupenjoe's](https://www.youtube.com/@ModdingByKaupenjoe)
 [1.21.X Forge Modding Tutorials](https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK).
+
+# Base Code Branch
+This branch is just a branch to reference back to when starting a new mod from a fresh start.
