@@ -12,9 +12,14 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FerencMod.MOD_ID);
 
-    // Register a custom ore
+    // --- Register the ore
+    // Silver ingot
     public static final RegistryObject<Item> SILVER = ITEMS.register("silver",
             () -> new Item(new Item.Properties()));
+    // Raw silver
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties()));
+
 
     // Enable event bus to register these modded items
     public static void register(IEventBus eventBus) {ITEMS.register(eventBus);}

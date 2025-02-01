@@ -15,6 +15,11 @@ For Monsters!
 
 I've implemented a custom ore titled Silver. While I did take inspiration from the real life ore Silver, I believe  
 I did not do the best job in faithfully adapting it into Minecraft, so I took creative freedom in implementing it.  
-Silver originally comes in raw form which can be smelted into silver ore. In terms of balancing, crafting armor or tools  
-with this ore will have a power scale between iron and diamond (Spoilers, I will implement something for end-game). 
+In terms of balancing, crafting armor or tools with this ore will have a power scale between iron and diamond   
+(Spoilers, I will implement something for end-game).  
+  
+## Obtaining Silver
+In order to obtain silver, it must be acquired through either smelting or blasting raw silver. I have not implemented  
+mining raw silver through natural regeneration, but this will be a future update.
+
 

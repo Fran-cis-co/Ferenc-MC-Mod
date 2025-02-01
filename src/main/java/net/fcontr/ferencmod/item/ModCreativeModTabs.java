@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.ferenc_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SILVER.get());
+                        pOutput.accept(ModItems.RAW_SILVER.get());
                     }).build());
 
     public static void register(IEventBus eventBus){ CREATIVE_MODE_TABS.register(eventBus);}

@@ -17,5 +17,6 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         // ----- Register Items ----- //
         basicItem(ModItems.SILVER.get());
+        basicItem(ModItems.RAW_SILVER.get());
     }
 }
