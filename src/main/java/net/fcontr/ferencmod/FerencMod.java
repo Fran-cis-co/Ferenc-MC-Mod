@@ -1,6 +1,10 @@
 package net.fcontr.ferencmod;
 
 import com.mojang.logging.LogUtils;
+import net.fcontr.ferencmod.item.ModCreativeModTabs;
+import net.fcontr.ferencmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,11 +31,15 @@ public class FerencMod {
     public FerencMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Register all the custom classes into the event bus
+        ModCreativeModTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -47,7 +55,9 @@ public class FerencMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SILVER);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

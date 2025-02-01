@@ -9,5 +9,12 @@ NOTE:
 This modding project couldn't have been down without the help of Youtuber [Kaupenjoe's](https://www.youtube.com/@ModdingByKaupenjoe)
 [1.21.X Forge Modding Tutorials](https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK).
 
-# Base Code Branch
-This branch is just a branch to reference back to when starting a new mod from a fresh start.
+
+# Silver  
+For Monsters!  
+
+I've implemented a custom ore titled Silver. While I did take inspiration from the real life ore Silver, I believe  
+I did not do the best job in faithfully adapting it into Minecraft, so I took creative freedom in implementing it.  
+Silver originally comes in raw form which can be smelted into silver ore. In terms of balancing, crafting armor or tools  
+with this ore will have a power scale between iron and diamond (Spoilers, I will implement something for end-game). 
+
