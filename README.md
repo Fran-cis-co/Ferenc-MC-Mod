@@ -24,6 +24,6 @@ In order to obtain silver ore, it must be acquired through either smelting or bl
 mining raw silver through natural regeneration, but this will be a future update.
 
 ### Silver Smelting Visual Examples
-![furnace_silver_smelting.PNG](images/furnace_silver_smelting.PNG)
-![blast_furnace_silver_smelting.PNG](images/blast_furnace_silver_smelting.PNG)
+![furnace_silver_smelting.PNG](src/images/furnace_silver_smelting.PNG)
+![blast_furnace_silver_smelting.PNG](src/images/blast_furnace_silver_smelting.PNG)
 
