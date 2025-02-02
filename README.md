@@ -19,8 +19,11 @@ I did not do the best job in faithfully adapting it into Minecraft, so I took cr
 In terms of balancing, crafting armor or tools with this ore will have a power scale between iron and diamond   
 (Spoilers, I will implement something for end-game).  
   
-## Obtaining Silver
-In order to obtain silver, it must be acquired through either smelting or blasting raw silver. I have not implemented  
+## Silver Ore
+In order to obtain silver ore, it must be acquired through either smelting or blasting raw silver. I have not implemented  
 mining raw silver through natural regeneration, but this will be a future update.
 
+### Silver Smelting Visual Examples
+![furnace_silver_smelting.PNG](images/furnace_silver_smelting.PNG)
+![blast_furnace_silver_smelting.PNG](images/blast_furnace_silver_smelting.PNG)
 
