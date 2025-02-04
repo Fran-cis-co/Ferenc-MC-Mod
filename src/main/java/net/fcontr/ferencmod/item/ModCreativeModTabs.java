@@ -2,6 +2,7 @@ package net.fcontr.ferencmod.item;
 
 import net.fcontr.ferencmod.FerencMod;
 //import net.fcontr.ferencmod.block.ModBlocks;
+import net.fcontr.ferencmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SILVER.get());
                         pOutput.accept(ModItems.RAW_SILVER.get());
+                        pOutput.accept(ModBlocks.SILVER_ORE.get());
                     }).build());
 
     public static void register(IEventBus eventBus){ CREATIVE_MODE_TABS.register(eventBus);}

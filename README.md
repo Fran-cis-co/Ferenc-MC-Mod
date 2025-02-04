@@ -23,6 +23,9 @@ In terms of balancing, crafting armor or tools with this ore will have a power s
 In order to obtain silver ore, it must be acquired through either smelting or blasting raw silver. I have not implemented  
 mining raw silver through natural regeneration, but this will be a future update.
 
+### Silver Ore Block
+![silver_ore_block.png](src/main/resources/images/silver_ore_block.png)
+
 ### Silver Smelting Visual Examples
 ![furnace_silver_smelting.PNG](src/main/resources/images/furnace_silver_smelting.PNG)
 ![blast_furnace_silver_smelting.PNG](src/main/resources/images/blast_furnace_silver_smelting.PNG)

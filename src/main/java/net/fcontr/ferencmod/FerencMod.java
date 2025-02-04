@@ -1,6 +1,7 @@
 package net.fcontr.ferencmod;
 
 import com.mojang.logging.LogUtils;
+import net.fcontr.ferencmod.block.ModBlocks;
 import net.fcontr.ferencmod.item.ModCreativeModTabs;
 import net.fcontr.ferencmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class FerencMod {
         // Register all the custom classes into the event bus
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
